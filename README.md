@@ -21,6 +21,46 @@ A comprehensive framework for analyzing medical imaging pipelines with GPU accel
 - NVIDIA drivers and CUDA toolkit
 - Medical imaging datasets (MedNIST included)
 
+
+## Key Visualizations
+
+### **Medical Imaging Visualizations**
+
+#### **Multi-planar Reconstruction**
+![GPU Multi-planar Reconstruction](comprehensive_gpu_cpu_analysis_results/gpu_results/visualizations/gpu_enhanced_multiplanar.png)
+*Comprehensive multi-planar reconstruction showing Axial, Coronal, and Sagittal views with GPU acceleration*
+
+#### **Segmentation Analysis**
+![GPU Segmentation Analysis](comprehensive_gpu_cpu_analysis_results/gpu_results/visualizations/gpu_segmentation_analysis.png)
+*Advanced segmentation overlays with confidence mapping and GPU-accelerated processing*
+
+#### **Medical Report Visualization**
+![Medical Report Demo](comprehensive_gpu_cpu_analysis_results/gpu_results/visualizations/demo_medical_report_visualization.png)
+*Complete medical imaging report with comprehensive analysis and visualization*
+
+### **Performance Analysis**
+
+#### **GPU vs CPU Performance Dashboard**
+![Performance Dashboard](comprehensive_gpu_cpu_analysis_results/comparison_results/performance_comparison/gpu_cpu_performance_dashboard.png)
+*Side-by-side performance comparison showing GPU vs CPU metrics across all pipeline components*
+
+#### **Efficiency Analysis**
+![Efficiency Analysis](comprehensive_gpu_cpu_analysis_results/comparison_results/visualizations/gpu_cpu_efficiency_analysis.png)
+*Comprehensive efficiency comparison including memory, power, and throughput optimization*
+
+#### **Performance Comparison**
+![Performance Comparison](comprehensive_gpu_cpu_analysis_results/comparison_results/visualizations/gpu_cpu_performance_comparison.png)
+*Detailed performance metrics comparison with speedup ratios and efficiency gains*
+
+#### **Radar Chart Analysis**
+![Radar Chart](comprehensive_gpu_cpu_analysis_results/comparison_results/visualizations/gpu_cpu_radar_chart.png)
+*Multi-dimensional analysis showing GPU vs CPU performance across different metrics*
+
+### **Winning Solution Analysis**
+![Winning Solution](comprehensive_gpu_cpu_analysis_results/gpu_results/winning_solution_analysis.png)
+*Advanced GPU analysis demonstrating winning solution performance metrics and optimization strategies*
+
+
 ## Installation
 
 1. **Clone the repository:**
@@ -125,45 +165,6 @@ comprehensive_gpu_cpu_analysis_results/
         ├── gpu_cpu_performance_comparison.png # Performance comparison
         └── gpu_cpu_radar_chart.png           # Radar chart analysis
 ```
-
-## Key Visualizations
-
-### **Medical Imaging Visualizations**
-
-#### **Multi-planar Reconstruction**
-![GPU Multi-planar Reconstruction](comprehensive_gpu_cpu_analysis_results/gpu_results/visualizations/gpu_enhanced_multiplanar.png)
-*Comprehensive multi-planar reconstruction showing Axial, Coronal, and Sagittal views with GPU acceleration*
-
-#### **Segmentation Analysis**
-![GPU Segmentation Analysis](comprehensive_gpu_cpu_analysis_results/gpu_results/visualizations/gpu_segmentation_analysis.png)
-*Advanced segmentation overlays with confidence mapping and GPU-accelerated processing*
-
-#### **Medical Report Visualization**
-![Medical Report Demo](comprehensive_gpu_cpu_analysis_results/gpu_results/visualizations/demo_medical_report_visualization.png)
-*Complete medical imaging report with comprehensive analysis and visualization*
-
-### **Performance Analysis**
-
-#### **GPU vs CPU Performance Dashboard**
-![Performance Dashboard](comprehensive_gpu_cpu_analysis_results/comparison_results/performance_comparison/gpu_cpu_performance_dashboard.png)
-*Side-by-side performance comparison showing GPU vs CPU metrics across all pipeline components*
-
-#### **Efficiency Analysis**
-![Efficiency Analysis](comprehensive_gpu_cpu_analysis_results/comparison_results/visualizations/gpu_cpu_efficiency_analysis.png)
-*Comprehensive efficiency comparison including memory, power, and throughput optimization*
-
-#### **Performance Comparison**
-![Performance Comparison](comprehensive_gpu_cpu_analysis_results/comparison_results/visualizations/gpu_cpu_performance_comparison.png)
-*Detailed performance metrics comparison with speedup ratios and efficiency gains*
-
-#### **Radar Chart Analysis**
-![Radar Chart](comprehensive_gpu_cpu_analysis_results/comparison_results/visualizations/gpu_cpu_radar_chart.png)
-*Multi-dimensional analysis showing GPU vs CPU performance across different metrics*
-
-### **Winning Solution Analysis**
-![Winning Solution](comprehensive_gpu_cpu_analysis_results/gpu_results/winning_solution_analysis.png)
-*Advanced GPU analysis demonstrating winning solution performance metrics and optimization strategies*
-
 ## Advanced Usage
 
 ### **Custom Analysis Configuration**
