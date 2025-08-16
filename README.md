@@ -1,8 +1,10 @@
-# 🏥 Medical Imaging Pipeline Analysis Framework
+# Medical Imaging Pipeline Analysis Framework
 
 A comprehensive framework for analyzing medical imaging pipelines with GPU acceleration, CPU processing, and detailed performance comparisons. This project provides deep insights into medical image processing performance, utilization patterns, and optimization strategies.
 
-## 🚀 Features
+![Medical Imaging NVIDIA](diagram.png)
+
+## Features
 
 - **GPU-Accelerated Analysis**: Comprehensive GPU performance analysis with NVIDIA tools
 - **CPU Processing Analysis**: CPU-only pipeline analysis for comparison
@@ -12,14 +14,14 @@ A comprehensive framework for analyzing medical imaging pipelines with GPU accel
 - **Pipeline Deep Dive**: Component-by-component analysis and optimization insights
 - **Augmentation Analysis**: Complete medical image augmentation pipeline visualization
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - CUDA-compatible GPU (for GPU analysis)
 - NVIDIA drivers and CUDA toolkit
 - Medical imaging datasets (MedNIST included)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
 ```bash
@@ -37,27 +39,27 @@ pip install -r requirements.txt
 nvidia-smi
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 medical-imaging-pipeline/
-├── 📁 analysis/                 # Exploratory data analysis
-├── 📁 data/                     # Data management utilities
-├── 📁 models/                   # Pipeline models and DALI implementations
-├── 📁 utils/                    # Utility functions and imports
-├── 📁 comprehensive_gpu_cpu_analysis_results/  # Analysis results
-├── 🐍 main.py                   # Main pipeline entry point
-├── 🐍 full_pipeline.py          # Complete pipeline implementation
-├── 🐍 enhanced_visualization.py # Enhanced visualization framework
-├── 🐍 comprehensive_gpu_analysis.py      # GPU analysis engine
-├── 🐍 comprehensive_cpu_analysis.py      # CPU analysis engine
-├── 🐍 enhanced_gpu_cpu_comparison.py    # GPU vs CPU comparison
-├── 🐍 download_mednist.py       # Dataset download utility
-├── 🐍 config.py                 # Configuration settings
-└── 📖 README.md                 # This file
+├── analysis/                 # Exploratory data analysis
+├── data/                     # Data management utilities
+├── models/                   # Pipeline models and DALI implementations
+├── utils/                    # Utility functions and imports
+├── comprehensive_gpu_cpu_analysis_results/  # Analysis results
+├── main.py                   # Main pipeline entry point
+├── full_pipeline.py          # Complete pipeline implementation
+├── enhanced_visualization.py # Enhanced visualization framework
+├── comprehensive_gpu_analysis.py      # GPU analysis engine
+├── comprehensive_cpu_analysis.py      # CPU analysis engine
+├── enhanced_gpu_cpu_comparison.py    # GPU vs CPU comparison
+├── download_mednist.py       # Dataset download utility
+├── config.py                 # Configuration settings
+└── README.md                 # This file
 ```
 
-## 🎯 Quick Start
+## Quick Start
 
 ### 1. **Download MedNIST Dataset**
 ```bash
@@ -79,7 +81,7 @@ python comprehensive_cpu_analysis.py
 python enhanced_gpu_cpu_comparison.py
 ```
 
-## 🔍 Analysis Components
+## Analysis Components
 
 ### **GPU Analysis** (`comprehensive_gpu_analysis.py`)
 - **Enhanced Visualizations**: Multi-planar reconstruction, segmentation overlays, 3D rendering
@@ -102,43 +104,43 @@ python enhanced_gpu_cpu_comparison.py
 - **Pipeline Comparison**: Component-by-component GPU vs CPU analysis
 - **Efficiency Analysis**: Memory, power, and throughput efficiency comparisons
 
-## 📊 Results Structure & File Paths
+## Results Structure & File Paths
 
 All analysis results are organized in the `comprehensive_gpu_cpu_analysis_results/` directory with the following structure:
 
 ```
 comprehensive_gpu_cpu_analysis_results/
-├── 📁 gpu_results/              # GPU analysis results
-│   ├── 📁 visualizations/       # GPU visualizations
+├── gpu_results/              # GPU analysis results
+│   ├── visualizations/       # GPU visualizations
 │   │   ├── gpu_enhanced_multiplanar.png      # Multi-planar reconstruction
 │   │   ├── gpu_segmentation_analysis.png     # Segmentation analysis
 │   │   ├── demo_medical_report_visualization.png # Medical report demo
 │   │   └── demo_comparison_visualization.png  # Comparison demo
-│   ├── 📁 utilization_patterns/ # GPU utilization analysis
-│   ├── 📁 augmentation_analysis/ # GPU augmentation analysis
-│   ├── 📁 pipeline_deep_dive/   # GPU pipeline analysis
-│   ├── 📁 performance_analysis/ # GPU performance metrics
-│   ├── 📁 reports/              # GPU analysis reports
-│   ├── 📁 metrics/              # GPU performance data
+│   ├── utilization_patterns/ # GPU utilization analysis
+│   ├── augmentation_analysis/ # GPU augmentation analysis
+│   ├── pipeline_deep_dive/   # GPU pipeline analysis
+│   ├── performance_analysis/ # GPU performance metrics
+│   ├── reports/              # GPU analysis reports
+│   ├── metrics/              # GPU performance data
 │   └── winning_solution_analysis.png          # Winning solution analysis
-├── 📁 cpu_results/              # CPU analysis results
-│   ├── 📁 visualizations/       # CPU visualizations
-│   ├── 📁 utilization_patterns/ # CPU utilization analysis
-│   ├── 📁 augmentation_analysis/ # CPU augmentation analysis
-│   ├── 📁 pipeline_deep_dive/   # CPU pipeline analysis
-│   ├── 📁 performance_analysis/ # CPU performance metrics
-│   ├── 📁 reports/              # CPU analysis reports
-│   └── 📁 metrics/              # CPU performance data
-└── 📁 comparison_results/       # GPU vs CPU comparison results
-    ├── 📁 performance_comparison/ # Performance comparison plots
+├── cpu_results/              # CPU analysis results
+│   ├── visualizations/       # CPU visualizations
+│   ├── utilization_patterns/ # CPU utilization analysis
+│   ├── augmentation_analysis/ # CPU augmentation analysis
+│   ├── pipeline_deep_dive/   # CPU pipeline analysis
+│   ├── performance_analysis/ # CPU performance metrics
+│   ├── reports/              # CPU analysis reports
+│   └── metrics/              # CPU performance data
+└── comparison_results/       # GPU vs CPU comparison results
+    ├── performance_comparison/ # Performance comparison plots
     │   ├── gpu_cpu_performance_dashboard.png  # Main performance dashboard
     │   └── gpu_cpu_performance_stats.json     # Performance statistics
-    ├── 📁 utilization_comparison/ # Utilization comparison analysis
-    ├── 📁 augmentation_comparison/ # Augmentation comparison
-    ├── 📁 pipeline_comparison/   # Pipeline comparison analysis
-    ├── 📁 reports/               # Comparison reports
-    ├── 📁 metrics/               # Comparison metrics
-    └── 📁 visualizations/        # Comparison visualizations
+    ├── utilization_comparison/ # Utilization comparison analysis
+    ├── augmentation_comparison/ # Augmentation comparison
+    ├── pipeline_comparison/   # Pipeline comparison analysis
+    ├── reports/               # Comparison reports
+    ├── metrics/               # Comparison metrics
+    └── visualizations/        # Comparison visualizations
         ├── gpu_cpu_efficiency_analysis.png    # Efficiency analysis
         ├── gpu_cpu_performance_comparison.png # Performance comparison
         └── gpu_cpu_radar_chart.png           # Radar chart analysis
@@ -155,7 +157,7 @@ comprehensive_gpu_cpu_analysis_results/
 | `comparison_results/visualizations/gpu_cpu_efficiency_analysis.png` | Efficiency analysis | ~118KB | Memory, power, throughput efficiency |
 | `comparison_results/visualizations/gpu_cpu_radar_chart.png` | Radar chart | ~512KB | Multi-dimensional performance analysis |
 
-## 🎨 Key Visualizations
+## Key Visualizations
 
 ### **Medical Imaging Visualizations**
 
@@ -193,7 +195,7 @@ comprehensive_gpu_cpu_analysis_results/
 ![Winning Solution](comprehensive_gpu_cpu_analysis_results/gpu_results/winning_solution_analysis.png)
 *Advanced GPU analysis demonstrating winning solution performance metrics and optimization strategies*
 
-## 🚀 Advanced Usage
+## Advanced Usage
 
 ### **Custom Analysis Configuration**
 ```python
@@ -231,7 +233,7 @@ python comprehensive_cpu_analysis.py && \
 python enhanced_gpu_cpu_comparison.py
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### **GPU Metrics**
 - **Utilization**: GPU compute and memory utilization
@@ -253,7 +255,7 @@ python enhanced_gpu_cpu_comparison.py
 - **Cost Analysis**: Performance per watt comparison
 - **Scalability**: Multi-device performance scaling
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### **Common Issues**
 
@@ -297,14 +299,14 @@ python enhanced_gpu_cpu_comparison.py
    - Use CPU-optimized libraries
    - Implement batch processing
 
-## 📚 Documentation
+## Documentation
 
 - **Main Pipeline**: See `main.py` and `full_pipeline.py` for pipeline implementation
 - **Visualization Framework**: See `enhanced_visualization.py` for visualization tools
 - **Analysis Engines**: See individual analysis scripts for detailed implementation
 - **Configuration**: See `config.py` for customizable parameters
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -312,18 +314,18 @@ python enhanced_gpu_cpu_comparison.py
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **NVIDIA**: For GPU acceleration tools and DALI pipeline
 - **MONAI**: For medical imaging framework
 - **PyTorch**: For deep learning framework
 - **MedNIST**: For medical imaging dataset
 
-## 📞 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/kopalgarg/medical-imaging-pipeline/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/kopalgarg/medical-imaging-pipeline/discussions)
@@ -331,7 +333,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for Medical Imaging Research**
+**Made with dedication for Medical Imaging Research**
 
 *This framework provides comprehensive analysis tools for medical imaging pipelines, enabling researchers and developers to optimize performance, understand resource utilization, and make informed decisions about GPU vs CPU processing strategies.*
 
