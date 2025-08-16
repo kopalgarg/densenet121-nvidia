@@ -39,26 +39,6 @@ pip install -r requirements.txt
 nvidia-smi
 ```
 
-## Project Structure
-
-```
-medical-imaging-pipeline/
-├── analysis/                 # Exploratory data analysis
-├── data/                     # Data management utilities
-├── models/                   # Pipeline models and DALI implementations
-├── utils/                    # Utility functions and imports
-├── comprehensive_gpu_cpu_analysis_results/  # Analysis results
-├── main.py                   # Main pipeline entry point
-├── full_pipeline.py          # Complete pipeline implementation
-├── enhanced_visualization.py # Enhanced visualization framework
-├── comprehensive_gpu_analysis.py      # GPU analysis engine
-├── comprehensive_cpu_analysis.py      # CPU analysis engine
-├── enhanced_gpu_cpu_comparison.py    # GPU vs CPU comparison
-├── download_mednist.py       # Dataset download utility
-├── config.py                 # Configuration settings
-└── README.md                 # This file
-```
-
 ## Quick Start
 
 ### 1. **Download MedNIST Dataset**
@@ -145,17 +125,6 @@ comprehensive_gpu_cpu_analysis_results/
         ├── gpu_cpu_performance_comparison.png # Performance comparison
         └── gpu_cpu_radar_chart.png           # Radar chart analysis
 ```
-
-### **Key Result Files & Their Purposes:**
-
-| File Path | Description | Size | Purpose |
-|-----------|-------------|------|---------|
-| `gpu_results/visualizations/gpu_enhanced_multiplanar.png` | Multi-planar reconstruction | ~1MB | Shows Axial, Coronal, Sagittal views |
-| `gpu_results/visualizations/gpu_segmentation_analysis.png` | Segmentation analysis | ~769KB | Segmentation overlays with confidence |
-| `gpu_results/winning_solution_analysis.png` | Winning solution analysis | ~1MB | Advanced GPU optimization metrics |
-| `comparison_results/performance_comparison/gpu_cpu_performance_dashboard.png` | Performance dashboard | ~1.8MB | Side-by-side GPU vs CPU comparison |
-| `comparison_results/visualizations/gpu_cpu_efficiency_analysis.png` | Efficiency analysis | ~118KB | Memory, power, throughput efficiency |
-| `comparison_results/visualizations/gpu_cpu_radar_chart.png` | Radar chart | ~512KB | Multi-dimensional performance analysis |
 
 ## Key Visualizations
 
@@ -298,42 +267,3 @@ python enhanced_gpu_cpu_comparison.py
    - Optimize memory access patterns
    - Use CPU-optimized libraries
    - Implement batch processing
-
-## Documentation
-
-- **Main Pipeline**: See `main.py` and `full_pipeline.py` for pipeline implementation
-- **Visualization Framework**: See `enhanced_visualization.py` for visualization tools
-- **Analysis Engines**: See individual analysis scripts for detailed implementation
-- **Configuration**: See `config.py` for customizable parameters
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- **NVIDIA**: For GPU acceleration tools and DALI pipeline
-- **MONAI**: For medical imaging framework
-- **PyTorch**: For deep learning framework
-- **MedNIST**: For medical imaging dataset
-
-## Support
-
-- **Issues**: [GitHub Issues](https://github.com/kopalgarg/medical-imaging-pipeline/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/kopalgarg/medical-imaging-pipeline/discussions)
-- **Wiki**: [Project Wiki](https://github.com/kopalgarg/medical-imaging-pipeline/wiki)
-
----
-
-**Made with dedication for Medical Imaging Research**
-
-*This framework provides comprehensive analysis tools for medical imaging pipelines, enabling researchers and developers to optimize performance, understand resource utilization, and make informed decisions about GPU vs CPU processing strategies.*
-
