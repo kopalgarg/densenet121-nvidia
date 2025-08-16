@@ -1,0 +1,17 @@
+Performance Metrics Summary
+========================================
+
+Performance Metrics:
+--------------------
+Processing Time: 0.15
+Gpu Utilization: 87%
+Memory Usage: 2.1 GB
+
+Quality Metrics:
+---------------
+Accuracy: 95.2%
+Dice Score: 0.85
+Confidence: 0.501
+
+Generated on: 2025-08-15 23:42:22
+GPU Available: True

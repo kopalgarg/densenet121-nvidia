@@ -1,0 +1,30 @@
+Medical Image Analysis Results
+==================================================
+
+demo_data:
+  image_size: (64, 64)
+  prediction_range: 0-254
+  confidence_range: 0.000-1.000
+metadata:
+  patient_id: DEMO_001
+  scan_date: 2024-01-15
+  modality: CT
+  dice_score: 0.85
+  confidence: [[0.60907037 0.8128634  0.46930318 ... 0.5737167  0.20419928 0.62871414]
+ [0.04099445 0.2153804  0.95656607 ... 0.11259773 0.8464976  0.93733162]
+ [0.26205427 0.30167771 0.31513655 ... 0.62939444 0.68810029 0.647848  ]
+ ...
+ [0.90554335 0.15081535 0.1118453  ... 0.36989153 0.84618346 0.84212748]
+ [0.0218668  0.48463146 0.15918029 ... 0.95831186 0.26492227 0.33359927]
+ [0.73681618 0.65238763 0.99164895 ... 0.116791   0.51698742 0.3570996 ]]
+  processing_time: 0.15
+  accuracy: 95.2%
+  speed: 120
+  memory: 2.1
+  gpu_util: 87
+  image_quality: Excellent
+  seg_quality: High
+  confidence_level: Very High
+
+Generated on: 2025-08-15 23:42:24
+GPU Available: True

@@ -1,0 +1,10 @@
+{
+  "avg_batch_time": 0.10958261874770862,
+  "avg_throughput": 102.70568451575065,
+  "avg_memory_efficiency": 0.801325897269975,
+  "avg_power_efficiency": 0.7191250738343092,
+  "peak_throughput": 132.17333547451767,
+  "min_batch_time": 0.034291233491374806,
+  "throughput_std": 15.035614719648622,
+  "memory_efficiency_std": 0.11246434210879688
+}

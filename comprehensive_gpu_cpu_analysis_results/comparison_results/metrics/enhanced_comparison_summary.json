@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-08-16 00:34:33",
+  "execution_time": 15.729817152023315,
+  "comparison_components": [
+    "Performance Comparison",
+    "Utilization Comparison",
+    "Augmentation Comparison",
+    "Pipeline Comparison",
+    "Comprehensive Report"
+  ],
+  "performance_metrics": {
+    "gpu_avg_batch_time": 0.1089389036509159,
+    "cpu_avg_batch_time": 0.3154056704786705,
+    "gpu_avg_throughput": 103.04696005800099,
+    "cpu_avg_throughput": 31.504938273886026,
+    "gpu_avg_memory_efficiency": 0.8019253081078047,
+    "cpu_avg_memory_efficiency": 0.6053612070873684,
+    "gpu_avg_power_efficiency": 0.7212890536647515,
+    "cpu_avg_power_efficiency": 0.5163933490257026,
+    "speedup_batch_time": 2.8952528427251045,
+    "speedup_throughput": 3.2708192970311285,
+    "memory_efficiency_improvement": 1.32470547950402,
+    "power_efficiency_improvement": 1.3967822301074033
+  },
+  "total_files_generated": 0
+}
